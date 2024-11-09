@@ -1,0 +1,68 @@
+.userListPage_main {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.userListPage_heading {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.userListPage_box {
+  width: 1080px;
+  height: 85vh;
+  top: 525px;
+  left: 544px;
+  padding: 114px 126px 114px 113px;
+  gap: 0px;
+  border-radius: 80px;
+  border: 30px solid;
+  margin: auto;
+  background-color: aliceblue;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.userListPage_card {
+  width: 301px;
+  height: 157px;
+  border-radius: 20px;
+  border: 1px;
+  background-color: rgb(228, 234, 238);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2px 2%;
+}
+.userListPage_cardUserName {
+  font-family: Poppins;
+  font-size: 19.18px;
+  font-weight: 600;
+  text-align: left;
+  height: 25px;
+}
+.userListPage_cardUserEmail {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #818286;
+  height: 10px;
+}
+.userListPage_cardUserContact {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #818286;
+}
+.userListPage_cardUserEdit {
+  text-align: right;
+}
+.userListPage_cardUserEditBtn {
+  width: 65px;
+  height: 28px;
+  border: 1px solid #818286;
+  border-radius: 6.34px;
+  opacity: 0px;
+}
